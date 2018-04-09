@@ -1,0 +1,17 @@
+.lienhe{
+	.btn-guilienhe{
+		cursor: pointer;
+		text-align: center;
+		padding: 9px 10px 9px 10px;
+		border-radius: 0;
+		color: $orange;
+		background: #fff;
+		border: 1px solid $orange;
+		text-shadow:none !important;
+		&:hover {
+			text-decoration: none;
+			background-color: $orange;
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,148 @@
+.danhmuc{
+	.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+		background-color: $orange;
+		border-color: $orange;
+		color: #fff;
+	}
+	.pagination{
+		li{
+			a{
+				color: #000;
+			}
+		}
+	}
+	.select{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.checkbox{
+		margin-left: 15px;
+	}
+	.col-md-3{
+		 margin: 0;
+	        	padding: 0;
+	}
+	 .sp-info{
+	        p{
+	            margin: 0;
+	        }
+	        .gia{
+	            color: $orange;
+	            font-size: 18px;
+	        }
+	        .gia-cu{
+	            color: $red;
+	            text-decoration: line-through;
+	        }
+	    }
+	.btn-zoom{
+	        display: none;
+	        border-radius: 0;
+	        width: 40px;
+	        float: right;
+	        padding-left: 15px;
+	        &:hover{
+	            background-color: #fff;
+	            border:1px solid #ffbd4a;
+	            color: #ffbd4a;
+	        }
+	    }
+	    .xem-zoom:hover .btn-zoom{
+	        display: inline-block;
+	    }
+	    .btn-muangay{
+	        border: 1px solid $orange;
+	        border-radius: 0;
+	        background-color: #fff;
+	        color: $orange;
+	        text-shadow:none;
+	        font-style: normal;
+	        font-weight: normal;
+	        transition: 0.3s;
+	        &:hover{
+	            background-color: $orange;
+	            color: #fff;
+	        }
+	    }
+	.panel-danhmuc{
+		border-radius: 0;
+		.panel-heading{
+			border-radius: 0;
+			background-color: $orange;
+			h5{
+				color: #fff;
+				font-weight: bold;
+			}
+		}
+		.panel-body{
+			border-radius: 0;
+			padding: 0;
+			ul{
+				list-style-type: none;
+				padding-left: 0;
+				background-color: $grey;
+				margin-bottom: 0;
+				li{
+					border-bottom: 1px dotted #999;
+					padding: 11px 27px 11px 27px;
+					color: #000;
+					display: list-item;
+					font-weight: bold;
+					a{
+						position: relative;
+						display: block;
+					}
+					.submenu{
+						display: none;
+						width: 0;
+						position: absolute;
+						background-color: #fff;
+						border: 1px solid #ddd;
+						margin-top: -32px;
+						margin-left: 236px;
+						z-index: 999;
+					}
+					&:last-child{
+						border-bottom: none;
+					}
+				}
+				.menu-con{transition: all 0.3s;}
+				.menu-con:hover .submenu{
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.panelhang{
+		margin-bottom: 30px;
+		.chonhang{
+			float: left;
+			padding-bottom: 0;
+			margin-top: 8px;
+			ul{
+				padding: 0;
+				margin-bottom: 0;
+				li{
+					list-style-type: none;
+					display: inline-block;
+					margin-right: 15px;
+					&:first-child{
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.sapxep{
+			float: right;
+			display: flex;
+			.select{
+				width: 140px;
+				select{
+					border-radius: 0;
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}

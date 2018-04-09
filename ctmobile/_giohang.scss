@@ -1,0 +1,132 @@
+.giohang{
+	.panel{
+		border-radius: 0;
+	}
+	.panel-default{
+		.panel-heading{
+			background-color: #fff;
+		}
+	}
+	.panel-giohang{
+		.panel-body{
+			display: flex;
+			.img{
+				
+				height: 150px;
+				width: 150px;
+				padding: 5px;
+				img{
+					width: 100%;
+				}
+			}
+			.thongtin{
+				
+				width: 340px;
+				height: 150px;
+				padding-top: 40px;
+				padding: 5px;
+				display: flex;
+				align-items:center;
+				p{
+					margin:0;
+				}
+				.ten{
+					color: #000;
+				}
+				a{
+					color: $orange;
+				}
+				.gia-an{
+					color: #000;
+				}
+			}
+			.giatien{
+				
+				height: 150px;
+				padding: 5px;
+				display: flex;
+				align-items:center;
+				p{
+					margin: 0;
+				}
+				.gia{
+					font-size: 17px;
+					color: $orange;
+				}
+			}
+			.soluong{
+				
+				width: 100px;
+				height: 150px;
+				padding: 5px;
+				display: flex;
+				align-items:center;
+				justify-content:center;
+				.group{
+					display: flex;
+					flex-direction:row;
+					button{
+						width: 20px;
+						height: 30px;
+						margin: 0;
+						padding: 0;
+						color: #000;
+						border: 1px solid #ddd;
+						border-radius: 0;
+						background-color: #fff;
+					}
+					input{
+						width: 40px;
+						text-align: center;
+					}
+				}
+			}
+			.thanhtien{
+				
+				height: 150px;
+				width: 150px;
+				padding: 5px;
+				display: flex;
+				align-items:center;
+				justify-content:center;
+				p{
+					margin:0;
+				}
+				.gia{
+					font-size: 17px;
+					color: $orange;
+				}
+			}
+		}
+	}
+	.tongtien{
+		text-align: center;
+		p{
+			margin: 0;
+		}
+		.title{
+			font-weight: bold;
+			color: #000;
+		}
+		.gia{
+			font-size: 35px;
+			color: $orange;
+		}
+		.luachon{
+			display: flex;
+			.btn-trang{
+				@include buttoncustom(#000,#fff,#000,200px,50px,10px);
+				&:hover{
+					background-color: $orange;
+					border-color: $orange;
+					color: #fff !important;
+				}
+			}
+		}
+		.thanhtoan{
+			.btn-dathang{
+				@include buttoncustom($orange,$orange,#fff,100%,60px,15px);
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+#header #header-wrap{
+    box-shadow: none;
+    background-color: $orange !important;
+    nav{
+
+        ul{
+            li{
+                a{
+                    color: #fff !important;
+                    &:hover{
+                          color: $orange;
+                    }
+                }
+                ul{
+                    li{
+                        ul{
+                            a{
+                                color: #444 !important;
+                                &:hover{
+                                    color: $orange !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#logo{
+  position: absolute !important;
+}
+.top-menu{
+    li{
+        height: 60px !important;
+        line-height: 60px !important;
+        padding: 0 20px 0 20px;
+    }
+    .hotro{
+        border: 1px solid #eee;
+        border-bottom: none;
+        span{
+            color: $orange;
+        }
+    }
+    .thoigian{
+        border: 1px solid #eee;
+        border-bottom: none;
+        border-left: none;
+    }
+    .dangnhap{
+        border: 1px solid #eee;
+        border-bottom: none;
+        a{
+            display: inline-block !important;
+            font-weight: bold !important;
+        }
+    }
+    .giohang{
+        border: 1px solid #eee;
+        border-bottom: none;
+        border-left: none;
+        i{
+            font-size: 28px;
+        }
+        .badge{
+            background-color: $webtienich;
+            top: 0;
+            margin-top: -20px;
+            margin-left: -10px;
+        }
+
+    }  
+}

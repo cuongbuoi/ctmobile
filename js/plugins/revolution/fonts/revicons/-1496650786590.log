@@ -1,0 +1,61 @@
+[Violation] Forced reflow while executing JavaScript took 450ms
+jquery.js:2 [Violation] 'DOMContentLoaded' handler took 606ms
+[Violation] Forced reflow while executing JavaScript took 429ms
+jquery.js:3 GET file:///Users/anhtuan/Dropbox/MyProject/Thuctap/WEB/skin-polo/js/plugins/revolution/fonts/revicons/revicons.woff?5510888 net::ERR_FILE_NOT_FOUND
+Jb @ jquery.js:3
+css @ jquery.js:3
+get @ jquery.js:3
+css @ jquery.js:3
+(anonymous) @ jquery.js:4
+m.access @ jquery.js:3
+m.fn.(anonymous function) @ jquery.js:4
+t @ revolution.extension.navigation.min.js:7
+q @ revolution.extension.navigation.min.js:7
+createNavigation @ revolution.extension.navigation.min.js:7
+runSlider @ jquery.themepunch.revolution.min.js:7
+initSlider @ jquery.themepunch.revolution.min.js:7
+(anonymous) @ jquery.themepunch.revolution.min.js:7
+dispatch @ jquery.js:3
+r.handle @ jquery.js:3
+trigger @ jquery.js:3
+(anonymous) @ jquery.js:3
+each @ jquery.js:2
+each @ jquery.js:2
+trigger @ jquery.js:3
+waitForScripts @ jquery.themepunch.revolution.min.js:7
+(anonymous) @ jquery.themepunch.revolution.min.js:7
+each @ jquery.js:2
+each @ jquery.js:2
+revolution @ jquery.themepunch.revolution.min.js:7
+(anonymous) @ index.html:1693
+j @ jquery.js:2
+fireWith @ jquery.js:2
+ready @ jquery.js:2
+J @ jquery.js:2
+plugins.js:76 [Violation] 'setInterval' handler took 220ms
+[Violation] Forced reflow while executing JavaScript took 219ms
+jquery.js:3 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.
+functions.js:1 [Violation] 'setTimeout' handler took 82ms
+jquery.js:3 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.
+jquery.js:3 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.
+functions.js:1 [Violation] 'setTimeout' handler took 55ms
+index.html:1 GET file:///Users/anhtuan/Dropbox/MyProject/Thuctap/WEB/skin-polo/js/plugins/revolution/fonts/revicons/revicons.ttf?5510888 net::ERR_FILE_NOT_FOUND
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 298ms
+[Violation] Forced reflow while executing JavaScript took 39ms
+jquery.js:4 XMLHttpRequest cannot load file:///Users/anhtuan/Dropbox/MyProject/Thuctap/WEB/skin-polo/include/twitter/tweet.php?username=ardianmusliu&list=&hashtag=&count=2&exclude_replies=false. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.
+send @ jquery.js:4
+ajax @ jquery.js:4
+m.(anonymous function) @ jquery.js:4
+getJSON @ jquery.js:4
+e.fn.twittie @ plugins.js:130
+(anonymous) @ functions.js:2
+each @ jquery.js:2
+each @ jquery.js:2
+(anonymous) @ functions.js:2
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 58ms
+[Violation] Forced reflow while executing JavaScript took 57ms
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 64ms
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 58ms
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 381ms
+[Violation] Forced reflow while executing JavaScript took 58ms
+jquery.themepunch.tools.min.js:60 [Violation] 'requestAnimationFrame' handler took 82ms

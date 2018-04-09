@@ -1,0 +1,154 @@
+body{
+	background-color: $grey;
+}
+.phanmot{
+	display: flex;
+	div{
+		border: 1px solid #ddd;
+		margin-right: 10px;
+		padding: 10px;
+		&:first-child{
+			border: 1px solid $orange;
+			a{
+				color: $orange;
+			}
+		}
+	}
+}
+.phanhai{
+	margin-top: 30px;
+	.col-md-4{
+		padding-bottom: 15px !important;
+	}
+}
+#page-content{
+	background-color: $grey;
+}
+.phanba{
+	.panel-sp{
+		box-shadow: none;
+		border-radius: 0;
+		border: none;
+		padding: 0;
+		background-color: $grey;
+		.panel-heading{
+			background-color: #fff;
+			border-radius: 0;
+			padding: 0;
+			margin-bottom: 15px;
+			.make-color{
+				background-color: $orange;
+				padding: 10px;
+				width: 250px;
+				&:after{
+					content: '';
+					display: inline-block;
+					border-left: 18px solid transparent;
+					border-top: 48px solid #fff;
+					z-index: 15;
+					margin-top: -36px;
+					margin-left: 223px;
+					position: absolute;
+					overflow: hidden;
+				}
+				h5{
+					color: #fff;
+				}
+			}
+		}
+		.body{
+			border-radius: 0 !important;
+			p{margin:0}
+			.panel{
+				transition: all 0.3s;
+				&:hover{
+					border: 1px solid $orange;
+					z-index: 999;
+					transform: scale(1.05);
+				}
+			}
+			.panel,.panel-body{
+				border-radius: 0;
+				border:none;
+				height: 300px;
+			}
+			.mid{
+				display: flex;
+				.img{
+					@include img(170px,150px);
+					margin-right: 10px;
+				}
+				.noidung{
+					.title{
+						color: #000;
+						font-weight: bold;
+					}
+					.khuyenmai{
+						color: $red;
+						font-weight: bold;
+					}
+				}
+			}
+			.bot{
+				.info{
+					float: left;
+					.title{
+						color: #000;
+						font-weight: bold;
+					}
+					.gia{
+						color: $red;
+						font-weight: bold;
+					}
+				}
+				.nut{
+					float: right;
+					.btn-muangay{
+						cursor: pointer;
+						text-align: center;
+						padding: 9px 10px 9px 10px;
+						border-radius: 0;
+						width: 120px;
+						height: 40px;
+						color: #5DA3E6;
+						background: #fff;
+						border: 1px solid #5DA3E6;
+						text-shadow:none;
+						&:hover {
+							text-decoration: none;
+							background-color: #5DA3E6;
+							color: #fff;
+						}
+					}
+				}
+			}
+			.child{
+				display: block;
+				.img{
+					@include img(150px,150px);
+				}
+				.title{
+					color: #000;
+					font-weight: bold;
+				}
+				.gia{
+					color: $red;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+.phancuoi{
+	display: flex;
+	justify-content:center;
+	div{
+		border: 1px solid #ddd;
+		margin-right: 10px;
+		padding: 10px;
+		border: 1px solid $orange;
+		a{
+			color: $orange !important;
+		}
+	}
+}
